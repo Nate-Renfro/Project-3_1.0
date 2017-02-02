@@ -1,0 +1,50 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author:           Nate Renfro
+   Date:             2.1.17
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+*/
+
+/*Body Styles*/
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+/*Header Styles*/
+#articleheader {
+  font: 18px normal;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+
+/*Nav List Styles*/
+nav {
+  background-color: rgb(125, 120, 89);
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 3em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover{
+  background-color: rgb(131, 121, 36);
+  color: yellow;
+}
+
+nav ul li:first-of-type {
+  text-transform: uppercase;
+}

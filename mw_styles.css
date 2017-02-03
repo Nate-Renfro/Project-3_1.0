@@ -37,14 +37,68 @@ nav ul {
 
 nav ul li a {
   color: white;
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
 
-nav ul li:hover{
+nav ul li a:hover{
   background-color: rgb(131, 121, 36);
   color: yellow;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+nav ul li:hover {
+  list-style-image: url(wheelmarker.png);
 }
 
 nav ul li:first-of-type {
   text-transform: uppercase;
+}
+
+
+/*Section Styles*/
+#leftsection p {
+  font-size: 22px;
+}
+
+#firstpar::first-line {
+  text-transform: uppercase;
+}
+
+blockquote {
+  background-color: rgb(131, 121, 36);
+  color: white;
+  font-size: 16px;
+  font-family: "Comic Sans MS", Times, cursive;
+}
+
+blockquote p::before {
+  content: open-quote;
+}
+
+blockquote p::after {
+  content: close-quote;
+}
+
+#rightsection h1 {
+  font: 22px normal;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#rightsection h2 {
+  font: 18px normal;
+  text-align: right;
+}
+
+#rightsection p {
+  font: 14px gray;
+  text-align: justify;
+}
+
+
+/*Footer Styles*/
+footer address {
+  font: 16px normal;
+  text-align: center;
 }
